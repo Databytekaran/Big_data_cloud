@@ -1,4 +1,4 @@
-# Big Data on Cloud - Modular Assignment 1
+# Big Data on Cloud 
 **Data Extraction, Data Processing and Knowledge Extraction** on the UCI Online Retail dataset - one integrated pipeline:
 
 `UCI xlsx -> CSV -> S3 raw -> Glue job 1 (preprocess) -> S3 processed -> Glue job 2 (CDC simulation) -> S3 CDC zone -> Athena + Redshift -> Apriori -> Outliers + Similarity -> Report`
